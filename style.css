@@ -1,0 +1,121 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #F5EEDC;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #27548A;
+  padding: 3rem;
+  border-radius: 2rem;
+  min-height: 60vh;
+}
+
+.appHeading {
+  width: 100%;
+}
+.appHeading h2 {
+  color: #DDA853;
+  font-size: 2rem;
+}
+
+.amountText {
+  width: 100%;
+  margin-top: 1rem;
+}
+.amountText p {
+  font-size: 1.2rem;
+  color: #DDA853;
+}
+
+.amountInput {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.amountInput input {
+  height: 2.5rem;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 1.2rem;
+  border: 2px solid #183B4E;
+  outline: none;
+  color: #DDA853;
+  background-color: #F5EEDC;
+  border-radius: 1rem;
+}
+
+
+.allItem {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.countryInfoContainer p{
+  color: #DDA853;
+  font-size: 1.1rem;
+}
+
+.selectContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #183B4E;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #27548A;
+  width: 7rem;
+}
+.selectContainer img {
+  height: 2.5rem;
+}
+
+.countryInfoContainer select {
+  background-color: #27548A;
+  color: #DDA853;
+  min-height: 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+}
+
+.icon {
+  margin-top: 43px;
+}
+.icon i {
+  color: #DDA853;
+  font-size: 1.2rem;
+}
+
+.rateContainer {
+  margin-top: 2rem;
+}
+.rateContainer p {
+  color: #DDA853;
+  font-size: 1.2rem;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.btnContainer button {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: #183B4E;
+  color: #DDA853;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
